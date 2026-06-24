@@ -19,6 +19,7 @@ test-results/
 !package-lock.json
 !tsconfig.json
 !playwright.config.ts
+!logindata.json
 
 # Environment files
 .env
