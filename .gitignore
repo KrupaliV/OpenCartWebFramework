@@ -16,6 +16,7 @@ test-results/
 # Playwright storage state
 *.json
 !package.json
+!package-lock.json
 !tsconfig.json
 !playwright.config.ts
 
