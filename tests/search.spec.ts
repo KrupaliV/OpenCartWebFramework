@@ -11,7 +11,7 @@ test.beforeEach(async ({ loginPage }) => {
 //Data Provider
 const productData = CsvHelper.readCsv('src/data/product.csv');
 for (const row of productData) {
-    test(`verify search results count - ${row.searchkey} - ${row.productname}`, async ({ homePage, searchResultsPage }) => {
+    test(`verify search results count - ${row.searchkey} - ${row.productname}`, async ({ homePage }) => {
         await homePage.doSearch(row.searchkey);
         expect(await searchResultsPage.getProductSearchResultsCount()).toBe(Number(row.resultcount));
     });
