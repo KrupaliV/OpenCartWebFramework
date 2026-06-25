@@ -1,5 +1,6 @@
 searchkey,productname,resultcount,execution
-macbook,MacBook Pro, 3
-macbook, MacBook Air, 3
-imac, iMac, 1
-airtel, null, 0
+macbook,MacBook Pro,3,yes
+macbook,MacBook Air,3,yes
+imac,iMac,1,yes
+airtel," ",0,no
+ 
